@@ -1,0 +1,10 @@
+É necessário adicionar iões ao sistema.
+
+De forma a fazermos esta adição , temos de criar um ficheiro .tpr, que será o ficheiro de input. 
+O comando grommp , que é o pré-processador do GROMACS, utiliza o ficheiro de coordenadas e de topologia gerados anteriormente para gerar o ficheiro .tpr.
+ESte ficheiro contém todos os pârametros para todos os átomos do sistema.
+
+Necessitamos também de um ficheiro ions.mdp facultado no tutorial, que gera uma descrição atómica do sistema, para criar este ficheiro .tpr.
+O grommp irá juntar os pârametro especificados tanto no ficheiro ions.mdp como nos dois ficheiros mencionados em cima, de forma a gerar o ficheiro .tpr.
+
+
