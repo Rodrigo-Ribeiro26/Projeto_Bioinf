@@ -1,0 +1,5 @@
+Aqui é feita uma alteração à duração da simulação no ficheiro md_100.mdp, de forma a criar um ficheiro md_100_st.mdp.
+
+Este ficheiro contém as informações necessárias para efetuar uma mdrun a 100ºC durante 2 nanosegundos.
+
+A unidade de medida de temperatura usado no GROMACS é o Kelvin e a de tempo é steps, em que 500000 steps equivalem a 1 nanosegundo.
