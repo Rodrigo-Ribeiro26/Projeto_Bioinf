@@ -8,4 +8,4 @@ A configuração da mesma está incluída no ficheiro de coordenadas gerado ante
 O comando -cs pede a configuração do solvente, que vem pré-instalado com o GROMACS.
 Neste caso, irei usar o modelo spc216.gro, tal como o tutorial sugere.
 
-O comando -p permite modificar o ficheiro da topologia.
+O comando -p permite modificar o ficheiro da topologia. Isto permite ao GROMACS acompanhar a quantidade de moléculas de água adicionadas, refletindo as mudanças no ficheiro topol.top
