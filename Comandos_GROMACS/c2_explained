@@ -1,0 +1,17 @@
+Os comandos seguintes servem para criar uma caixa que simula a maneira como a proteína existe na natureza.
+
+O comando editconf permite definir as dimensões dessa caixa, pois a proteína não pode existir no infinito.
+
+Os comandos -f e -o servem o mesmo propósito que anteriormente. 
+O padrão nas simulações do GROMACS é que o ficheiro gerado anteriormente será sempre o ficheiro onde vamos operar, ou seja, -f *ficheiro gerado anteriormente*.
+O ficheiro gerado por -o neste caso será outro ficheiro de coordenadas, mas agora para a criação da caixa.
+
+O comando -c diz ao GROMACS que a proteína tem de ficar no centro da caixa criada.
+
+O comando -d estabelece a distância mínima entre a borda da caixa e a proteína. 
+Para este caso segui o tutorial e usei a medida de 1.0. O GROMACS usa nanómetros (nm) como unidade de medida.
+
+O comando -bt permite escolher o tipo de caixa desejado.
+Para esta simulação segui o tutorial e defini a caixa como cúbica.
+
+
