@@ -1,0 +1,3 @@
+Aqui é executada a última mdrun, gerando o ficheiro md_0_1.gro que será introduzido no VMD para a visualização da proteína.
+
+Este comando demora cerca de 1 hora para correr, mas caso o utilizador possua uma GPU, o comando -nb gpu permite acelerar um pouco este processo.
