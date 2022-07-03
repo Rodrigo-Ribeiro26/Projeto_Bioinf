@@ -9,5 +9,7 @@ O comando -o serve para especificar o que desejamos ter como output. Neste caso 
 
 O comando -water permite escolher o modelo de água para o sistema.
 
-O output do conjunto destes 4 comandos resulta numa escolha do "force field" que queremos para o nosso sistema, algo que deverá ser decidido de forma cautelosa.
+O output do conjunto destes 4 comandos resulta numa escolha do force field que queremos para o nosso sistema, algo que deverá ser decidido de forma cautelosa.
 Decidi escolher o nº15 , OPLS-AA/L all-atom force field (2001 aminoacid dihedrals), pois é o escolhido no tutorial.
+
+Depois desta escolha, o código corre e são gerados 3 ficheiros, 3blg_processed.gro, topol.top, e posre.itp, como foi inicialmente previsto.
