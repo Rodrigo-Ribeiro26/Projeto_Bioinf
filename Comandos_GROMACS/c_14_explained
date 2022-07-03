@@ -1,0 +1,5 @@
+Aqui é feita uma alteração à temperatura no ficheiro md.mdp original , de forma a criar um ficheiro md_100.mdp.
+
+Este ficheiro contém as informações necessárias para efetuar uma mdrun a 100ºC.
+
+A unidade de medida de temperatura usado no GROMACS é o Kelvin.
