@@ -1,0 +1,6 @@
+É agora necessário relaxar o sistema, através do processo de minimização de energia.
+
+Este processo é similar ao de adição de iões, pois temos de usar o grompp para gerar o ficheiro .tpr.
+
+Mais uma vez, o ficheiro .mdp é facultado pelo tutorial, sendo este o minim.mdp.
+
