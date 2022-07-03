@@ -1,0 +1,16 @@
+ Depois do ficheiro .tpr gerado, é agora possível adicionar os iões ao sistema.
+ 
+ O comando usado para isto é o comando genion, que substitui as moléculas de água por iões no ficheiro da topologia.
+ 
+ O comando -s serve para dizer ao GROMACS qual o ficheiro de estrutura utilizado como input.
+ 
+ Os comandos -pname e -nname são utilizados para definir o nome dos iões positivos e negaticos, respetivamente.
+ 
+ O comando -neutral diz ao GROMACS para adicionar os iões necessários para neutralizar a carga da proteína.
+ 
+ Após correr estes comandos, teremos de escolher a opção SOL (13) pois não queremos que partes da proteína sejam substituidas por iões.
+ 
+ 
+ 
+ 
+
