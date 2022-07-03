@@ -4,4 +4,4 @@ O comando -v permite ao utilizador ver em tempo real todos os passos do processo
 
 O comando -deffnm define os nomes dos ficheiros de input e output. Como no passo anterior o ficheiro de output foi em.tpr, o comando fica -deffnm em.
 
-Estes comandos demoram cerca de 5 minutos para correrem.
+Estes comandos demoram alguns segundos para correrem.
