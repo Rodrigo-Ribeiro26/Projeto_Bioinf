@@ -1,0 +1,11 @@
+De seguida é necessário preencher a caixa com solvente.
+
+O comando solvate preenche a caixa com água.
+
+O comando -cp diz ao software que , ao preencher a caixa com solvente, a proteína não pode ser alterada. 
+A configuração da mesma está incluída no ficheiro de coordenadas gerado anteriormente, 3blg_newbox.gro.
+
+O comando -cs pede a configuração do solvente, que vem pré-instalado com o GROMACS.
+Neste caso, irei usar o modelo spc216.gro, tal como o tutorial sugere.
+
+O comando -p permite modificar o ficheiro da topologia.
