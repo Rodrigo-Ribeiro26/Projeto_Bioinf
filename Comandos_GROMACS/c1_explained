@@ -1,1 +1,13 @@
+O comando pdb2gmx tem como função a formação de 3 ficheiros essenciais:
+- O ficheiro da topologia para a molécula;
+- Um ficheiro de restrição de posição;
+- Um ficheiro com uma estrutura pós-processada.
 
+O comando -f permite dizer ao software em que ficheiro vamos operar, que neste caso será o ficheiro transferido da Protein Data Bank, 3blg.pdb.
+
+O comando -o serve para especificar o que desejamos ter como output. Neste caso queremos um ficheiro de coordenadas, que no GROMACS é um ficheiro .gro.
+
+O comando -water permite escolher o modelo de água para o sistema.
+
+O output do conjunto destes 4 comandos resulta numa escolha do "force field" que queremos para o nosso sistema, algo que deverá ser decidido de forma cautelosa.
+Decidi escolher o nº15 , OPLS-AA/L all-atom force field (2001 aminoacid dihedrals), pois é o escolhido no tutorial.
