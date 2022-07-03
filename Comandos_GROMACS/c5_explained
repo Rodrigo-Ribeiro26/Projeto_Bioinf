@@ -4,7 +4,7 @@
  
  O comando -s serve para dizer ao GROMACS qual o ficheiro de estrutura utilizado como input.
  
- Os comandos -pname e -nname são utilizados para definir o nome dos iões positivos e negaticos, respetivamente.
+ Os comandos -pname e -nname são utilizados para definir o nome dos iões positivos e negativos, respetivamente.
  
  O comando -neutral diz ao GROMACS para adicionar os iões necessários para neutralizar a carga da proteína.
  
