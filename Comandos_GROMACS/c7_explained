@@ -1,0 +1,7 @@
+Nesta fase, ao contrário da adição de iões, o comando usado é o mdrun.
+
+O comando -v permite ao utilizador ver em tempo real todos os passos do processo.
+
+O comando -deffnm define os nomes dos ficheiros de input e output. Como no passo anterior o ficheiro de output foi em.tpr, o comando fica -deffnm em.
+
+Estes comandos demoram cerca de 5 minutos para correrem.
