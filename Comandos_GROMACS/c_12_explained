@@ -1,0 +1,6 @@
+Após as mdrun's feitas anteriormente, o sistema está equilibrado, o que permite a passagem para a próxima e última fase : recolher dados.
+
+O processo é o mesmo que anteriormente, usando o grompp para gerar o ficheiro .tpr.
+
+Para isto, é fornecido o ficheiro md.mdp, que contém a informação necessária para correr uma simulação de 1 nanosegundo.
+
