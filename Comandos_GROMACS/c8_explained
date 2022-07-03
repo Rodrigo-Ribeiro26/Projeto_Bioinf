@@ -1,0 +1,8 @@
+O próximo passo é o equilibrio do sistema.
+
+Este e o próximo comando são essenciais para a estabilização da temperatura do sistema.
+
+Mais uma vez, o ficheiro .mdp é fornecido pelo tutorial, sendo para este caso nvt.mdp.
+
+O comando -r escolhe o ficheiro que define as posições de restrição.
+
